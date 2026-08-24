@@ -1,0 +1,147 @@
+{
+  _id: ObjectId('6975ab1b3a5f569e57656cb4'),
+  fullName: 'Saurabh Manoharan',
+  email: 'saurabh.manoharan@gmail.com',
+  password: '$2b$10$oXvF1WuCCRlm4wk9M/YEtOWOwQs6cdqt6zRRXVxv4Ea/ojbYrdeGy',
+  mobileNumber: '7517648547',
+  alternateMobileNumber: '9960387689',
+  mobileVerified: false,
+  emailVerified: true,
+  emailVerifiedAt: ISODate('2026-01-25T05:33:15.964Z'),
+  gender: 'male',
+  seekingGender: 'female',
+  dateOfBirth: ISODate('1999-10-17T18:30:00.000Z'),
+  timeOfBirth: '14:00',
+  motherTongue: 'Malayalam',
+  languagesKnown: [
+    'Marathi',
+    'Hindi',
+    'English'
+  ],
+  placeOfBirth: 'Lonavala',
+  complexion: 'Wheatish',
+  height: '5\'6" (168 cm)',
+  physicalStatus: 'Normal',
+  maritalStatus: 'Never Married',
+  religion: 'Hindu',
+  caste: 'Ezhava',
+  shuddhaJathakam: 'No',
+  doshamTypes: [
+    'Chovva Dosham'
+  ],
+  nakshatra: 'Uthradam',
+  raasi: 'Tulam',
+  country: 'India',
+  state: 'Maharashtra',
+  city: 'Pune',
+  presentResidentialAddress: {
+    country: 'India',
+    street: 'Sankalp Nagri',
+    area: 'Dehuroad',
+    landmark: 'Behind New Bank of India',
+    pincode: '412101',
+    city: 'Pune',
+    state: 'Maharashtra'
+  },
+  nativePlaceAddress: {
+    country: '',
+    street: '',
+    area: '',
+    landmark: '',
+    pincode: '',
+    city: 'Dehu Road Cantt',
+    state: ''
+  },
+  weight: NumberInt('82'),
+  bloodGroup: 'A+',
+  diet: 'Non-Vegetarian',
+  fatherName: 'Manoharan Nanu',
+  fatherOccupation: 'Business Owner',
+  motherName: 'Priti Manoharan',
+  motherOccupation: 'Teacher',
+  residentialStatus: 'Owned',
+  education: 'MBA - Master of Business Administration',
+  employmentType: 'Salaried - Private',
+  occupation: 'Product Manager',
+  annualIncome: {
+    currency: 'INR',
+    min: NumberInt('1500000'),
+    max: NumberInt('2000000'),
+    displayText: '₹15-20 lakhs'
+  },
+  professionalAdditionalInfo: '',
+  familyStatus: 'Middle Class',
+  ageFrom: NumberInt('23'),
+  ageTo: NumberInt('26'),
+  profileAbout: '',
+  interests: [
+    'Fitness',
+    'Movies',
+    'Music'
+  ],
+  profilePicture: {
+    url: 'https://sngs-matrimonial-prod.s3.ap-south-1.amazonaws.com/photos/6975ab1b3a5f569e57656cb4/1769319206693-fbbcefd84705f48f.jpeg',
+    uploadedAt: ISODate('2026-01-29T18:27:37.414Z')
+  },
+  horoscopeDocument: {
+    uploadedAt: ISODate('2026-01-25T05:33:15.965Z')
+  },
+  profileBanner: {
+    bannerType: 'color',
+    bannerColor: '#BAE1FF'
+  },
+  gallery: {
+    photos: [
+      {
+        url: 'https://sngs-matrimonial-prod.s3.ap-south-1.amazonaws.com/photos/6975ab1b3a5f569e57656cb4/1769319376496-6769973a063d64b1.jpeg',
+        uploadedAt: ISODate('2026-01-25T05:36:16.596Z'),
+        _id: ObjectId('6975abd03a5f569e57656d0b')
+      }
+    ]
+  },
+  likedProfiles: [],
+  likedBy: [],
+  isActive: true,
+  deletedAt: null,
+  approvalStatus: 'approved',
+  approvedAt: ISODate('2026-02-05T04:28:23.167Z'),
+  rejectedAt: null,
+  passwordResetAttempts: NumberInt('0'),
+  membership: {
+    isActive: false,
+    credits: NumberInt('0'),
+    expiryDate: null,
+    purchasedAt: null,
+    planId: null
+  },
+  approvalHistory: [
+    {
+      status: 'approved',
+      reason: '',
+      adminId: ObjectId('697509393a5f569e57656b3c'),
+      adminEmail: 'sngsmatrimony@gmail.com',
+      actionAt: ISODate('2026-02-05T04:28:23.167Z'),
+      _id: ObjectId('69841c67afcb076fca755bd7')
+    }
+  ],
+  viewedProfiles: [
+    {
+      profileId: ObjectId('6a3964f2cda08fcc39d2e36a'),
+      viewedAt: ISODate('2026-07-30T17:13:06.485Z'),
+      _id: ObjectId('6a6b8622879cd618d3978c05')
+    },
+    {
+      profileId: ObjectId('6a54bb34c424eb1a6ecac217'),
+      viewedAt: ISODate('2026-07-30T17:14:19.154Z'),
+      _id: ObjectId('6a6b866b879cd618d3978c4d')
+    },
+    {
+      profileId: ObjectId('6a538aefad894aa029fb188e'),
+      viewedAt: ISODate('2026-07-30T17:17:39.174Z'),
+      _id: ObjectId('6a6b8733879cd618d3978c99')
+    }
+  ],
+  createdAt: ISODate('2026-01-25T05:33:15.965Z'),
+  updatedAt: ISODate('2026-01-29T18:27:37.414Z'),
+  __v: NumberInt('2')
+}

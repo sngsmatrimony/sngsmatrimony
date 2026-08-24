@@ -1,0 +1,22 @@
+{
+  "name": "sngs-matrimony",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "install:backend": "cd sngs_matrimonial_backend-main && npm install",
+    "install:frontend": "cd sngs_matrimonial_frontend-main && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "backend": "cd sngs_matrimonial_backend-main && npm run dev",
+    "frontend": "cd sngs_matrimonial_frontend-main && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "build:frontend": "cd sngs_matrimonial_frontend-main && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mongodb": "^6.21.0",
+    "path": "^0.12.7"
+  }
+}

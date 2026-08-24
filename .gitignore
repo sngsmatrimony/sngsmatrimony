@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.local
+.env.*
+.npm/
+.DS_Store
+npm-debug.log*
+
+# Local environment exports may contain credentials
+backend_env.txt
+frontend_env.txt
+
+# Local media backup; keep large backup files outside source control
+s3-backup/
